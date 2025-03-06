@@ -1,6 +1,6 @@
 import './App.css';
 import { Box } from '@mui/material';
-import Dashboard from './components/Dashboard/Dashboard';
+import Dashboard from './components/dashboard/Dashboard';
 import Login from './pages/Login'
 import { getAccessTokenFromStorage } from './utils/getAccessTokenFromStorage'
 import { getAccessToken } from './utils/getAccessToken'
