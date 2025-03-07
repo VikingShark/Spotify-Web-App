@@ -17,6 +17,9 @@ const SongTable = ({ songs, loading, spotifyApi }) => {
 				duration={song.duration_ms / 1000}
 				key={i}
 				i={i}
+				position={song.position}
+				contextUri={song.contextUri}
+				spotifyApi={spotifyApi}
 			/>
 		));
 	};

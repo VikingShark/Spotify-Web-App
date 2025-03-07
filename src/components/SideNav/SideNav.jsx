@@ -35,8 +35,9 @@ const SideNav = ( {spotifyApi, token } ) => {
             backgroundColor: 'background.default',
             width: 230,
             height: '100%',
-            display: 'flex',
-            flexDirection: 'column'
+            display: { xs: 'none', md: 'flex' },
+            flexDirection: 'column',
+             
         }}>
             <Box p={3}>
                 <img src={spotifyLogo} alt="Spotify Logo" width={'75%'} />
