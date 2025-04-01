@@ -16,6 +16,7 @@ const Dashboard = ({ spotifyApi }) => {
     useEffect(() =>{
         async function onMount() {
             await spotifyApi.setAccessToken(token);
+            setLoading(false)
         }
         
         if(token) onMount();
