@@ -1,6 +1,6 @@
 import { Box, Skeleton } from '@mui/material';
 import { NavLink } from 'react-router-dom';
-import './Navplaylist.css';
+import './NavPlaylist.css';
 
 const NavPlaylist = ({ name, id, loading }) => {
 	return (
